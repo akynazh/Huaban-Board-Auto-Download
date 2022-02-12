@@ -23,7 +23,9 @@
 
 ![](https://pic.imgdb.cn/item/6207dafb2ab3f51d91dca7a5.png)
 
-获取到图片的ID(pin)之后可以对应访问点击图片后进入的地址：http://huaban.com/pins/pinId/
+获取到图片的ID(pin)之后可以对应访问点击图片后进入的地址：
+
+http://huaban.com/pins/pinId/
 
 再获取页面源码：
 
@@ -36,6 +38,7 @@
 通过滚动页面我们可以发现**加载规律**：
 
 原来的图片对应的代码：
+
 ![](https://pic.imgdb.cn/item/6207dbbc2ab3f51d91dd5590.png)
 
 经过滚动，原来的代码逐渐被一些新的代码取代：
